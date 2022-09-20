@@ -1,0 +1,167 @@
+/* Visually hidden */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+/* Visually hidden */
+:root {
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --accent-color: #2196F3;
+}
+/* general styles */
+body {
+    font-family: 'Roboto', Verdana, sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+.list {
+    list-style: none;
+}
+.background {
+    background-color:#2F303A;
+}
+.section-title {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+/* general styles */
+/* header styles */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.site-nav .link {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;          
+}
+.header-contacts .link {
+        color: var(--secondary-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+}
+
+.site-nav .link:hover, .header-contacts .link:hover,
+.site-nav .link:focus, .header-contacts .link:focus {
+    color: var(--accent-color);
+} 
+.site-nav .link.current {
+   color: var(--accent-color); 
+}
+/* header styles */
+/* index main styles */
+.hero-title {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+/* -------------------------------------- */
+.advantages  h3 {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.advantages  p {
+    color: var(--secondary-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+/* -------------------------------------- */
+
+.team h3 {
+color: var(--main-color);
+font-weight:500;
+font-size: 16px;
+line-height: 1.18;
+}
+
+.team p {
+    color: var(--secondary-color);
+    line-height: 1.18;
+}
+/* index main styles */
+/* footer styles */
+
+.footer .link {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    font-style: normal;
+}
+.footer .link:hover, .footer-address .link:focus {
+    color: var(--accent-color);
+}
+.address {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    text-decoration: none;
+}
+/* footer styles */
+/* portfolio main styles */
+.filter-button {
+    color: var(--main-color);
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1.62;
+}
+.filter-button:hover {
+    color: #FFFFFF;
+    background-color: var(--accent-color);    
+}
+.works-items a {
+    text-decoration: none;
+}
+.works-items h2 {
+color: var(--main-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.works-items p {
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.87;
+}
+/* portfolio main styles */
